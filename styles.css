@@ -1,0 +1,93 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+img {
+    width: 38px;
+}
+
+.sedans, 
+.suvs,
+.luxury {
+    color: white;
+    padding: 20px;
+}
+
+.headings {
+    font-family: Big Shoulders;
+}
+
+p {
+    font-family: Lexend Deca;
+    margin-bottom: 4rem;
+}
+.sedans {
+    background-color: rgb(227, 136, 38);
+}
+
+.suvs {
+    background-color: rgb(0, 105, 112);
+}
+
+.luxury {
+    background-color: rgb(0, 66, 65);
+}
+
+.btn-sedans {
+    color: white;
+    background-color: rgb(227, 136, 38);
+    border: 2px solid white;
+    padding: 6px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in,
+                color 0.15s ease-in;
+}
+
+.btn-sedans:hover {
+    color: rgb(227, 136, 38);
+    background-color: white;
+}
+
+.btn-suvs {
+    color: white;
+    background-color: rgb(0, 105, 112);
+    border: 2px solid white;
+    padding: 6px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in,
+                color 0.15s ease-in;
+}
+
+.btn-suvs:hover {
+    color: rgb(0, 105, 112);
+    background-color: white;
+}
+
+.btn-luxury {
+    color: white;
+    background-color: rgb(0, 66, 65);
+    border: 2px solid white;
+    padding: 6px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in,
+                color 0.15s ease-in;
+}
+
+.btn-luxury:hover {
+    color: rgb(0, 66, 65);
+    background-color: white;
+}
+
